@@ -39,7 +39,7 @@ curl -X GET http://localhost:8080/bt
 ## Testing
 Run the following script in the root folder
 ```bash
-go test -v -cover
+go test -v -cover ./...
 ```
 or 
 ```bash
